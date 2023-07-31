@@ -1,0 +1,10 @@
+Demonstration of Apple bug with LiveActivity not updating.
+
+Steps to reproduce the bug:
+
+ - Run the project
+ - Opening the app, see the "Current Value: #" counter count up (once every two seconds)
+ - While the app is foregrounded, pulling down from the top-left corner to see the home screen shows the live activity widget, updating as expected
+ - lock the phone or leave the app
+ - looking at the live widget now, it no longer updates
+ - when opening the app back up, see that the displayed value has continued to increase in the meantime
